@@ -25,7 +25,6 @@ public class TestTaskTwo extends AbstractTest {
             fail("Location does not have a constructor that takes a String parameter");
         }
     }
-
     @Test
     public void testSecondLocationConstructorInitializesValue() throws ClassNotFoundException, InvocationTargetException, InstantiationException, IllegalAccessException {
 
